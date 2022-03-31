@@ -1,4 +1,0 @@
-#!/bin/sh
-
-vcs -full64 ../rtl/divider.v ../tb/divider_tb.v +v2k -debug_all -top divider_tb \
-  -timescale=1ns/1ps
